@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V2Mate Video Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>V2Mate Video Downloader</h1>
+        <input type="text" id="videoUrl" placeholder="Enter video URL" />
+        <button id="fetchButton">Fetch Video Qualities</button>
+        
+        <div id="qualityOptions" class="hidden">
+            <h2>Select Video Quality</h2>
+            <div id="qualities"></div>
+            <h2>Or Convert to Audio</h2>
+            <button id="convertAudioButton">Convert to Audio</button>
+        </div>
+        
+        <div id="message"></div>
+        
+        <div class="social-media">
+            <h3>Follow Us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
